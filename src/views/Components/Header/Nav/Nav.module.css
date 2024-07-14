@@ -1,0 +1,82 @@
+.Logo {
+  padding: 1rem;
+  height: 50px;
+  width: 150px;
+  z-index: 900;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  margin: 5px;
+  z-index: 900;
+  position: relative;
+  background-color: #fff;
+  height: 10vh;
+}
+
+.OptionsNav {
+  @media screen and (width < 768px) {
+    display: none;
+  }
+  .optionsNav_a {
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.1);
+      color: #bfd1a1;
+    }
+  }
+  @media screen and (width > 768px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.Ham {
+  cursor: pointer;
+  @media screen and (width > 768px) {
+    display: none;
+  }
+}
+.OptionsNavNobileOn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 1rem;
+  position: absolute;
+  top: 55px;
+  transition: ease 0.3s all;
+  transform: translateY(0rem);
+  background-color: #fff;
+  z-index: 0;
+  width: 99%;
+  @media screen and (width > 768px) {
+    display: none;
+    b {
+      cursor: pointer;
+      &:hover {
+        color: #bfd1a1;
+      }
+    }
+  }
+}
+.OptionsNavNobilOf {
+  z-index: 0;
+  transition: ease 0.3s all;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: none;
+  position: absolute;
+  top: 1rem;
+  transform: translateY(-4rem);
+}
+/* la barra de navegacion dromdown */
+
+

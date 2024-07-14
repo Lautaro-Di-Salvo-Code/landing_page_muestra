@@ -1,0 +1,82 @@
+.color1 {
+  background-color: #fef3df;
+}
+.color2 {
+  background-color: #e6ebe4;
+}
+.color3 {
+  background-color: #e0f1f1;
+}
+.iconsADS {
+  height: auto;
+  width: 73px;
+  margin: 0 auto;
+}
+.sectionGoogleAds{
+  h3{
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+.ContainerAds {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 10px;
+  @media screen and (width > 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr ;
+    gap: 3rem;
+  }
+  button {
+    background-color: #ffffff00;
+    border: solid 1px #c4bfbf;
+    padding: 7px;
+    width: 73px;
+    margin: 0 auto;
+    cursor: pointer;
+    transform: scale(0.8, 0.8);
+    transition: all 0.3s;
+    color: #000;
+    &:hover {
+      transform: scale(0.9, 0.9);
+      background-color: #ffffff00;
+    }
+  } 
+}
+.ContainerAds_div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+  gap: 2rem;
+  width: 90%;
+  /* max-width: 600px; */
+  margin: auto;
+  b {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+}
+h3 {
+  text-align: center;
+}
+.div_description{
+  margin: auto;
+  max-width: 150px;
+  height: auto;
+  width: 100px;
+  .div_description_p {
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    font-size: 10px;
+    height: auto;
+    width: fit-content;
+  }
+  
+}

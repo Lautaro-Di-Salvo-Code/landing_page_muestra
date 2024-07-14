@@ -1,0 +1,31 @@
+/* #FEF3DF */
+.section {
+  margin-top: 3rem;
+  background-color: #fef3df;
+  height: 40vh;
+  margin: auto;
+}
+.section > * {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #2f3349;
+  color: #fff;
+  width: 122px;
+  max-width: 200px;
+  padding: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+  &:hover {
+    background-color: #3f4462;
+  }
+}
+.div_description {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+}

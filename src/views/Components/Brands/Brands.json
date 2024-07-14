@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "img": "https://bobmeijer.nl/wp-content/uploads/2022/09/klant-conrad.png"
+    },
+    {
+        "id": 1,
+        "img": "https://bobmeijer.nl/wp-content/uploads/2022/09/klant-rompslomp.png"
+    },
+    {   
+        "id": 2,
+        "img": "https://bobmeijer.nl/wp-content/uploads/2022/09/klant-ww-2.png"
+    },
+    {
+        "id": 3,
+        "img": "https://bobmeijer.nl/wp-content/uploads/2023/12/kadasterdata-logo-png-1.png"
+    },
+    {
+        "id": 4,
+        "img": "https://bobmeijer.nl/wp-content/uploads/2022/09/klant-springcast.png"
+    },
+    {
+        "id": 5,
+        "img": "https://bobmeijer.nl/wp-content/uploads/2022/09/klant-louwman.png"
+    }
+]
