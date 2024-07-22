@@ -7,10 +7,10 @@ const QuestionUser = () => {
                 <h3>vfdvfd</h3>
             </div>
             <div className="div_description">
-                <b>vdvdvfdvdfvdfvfdbfdbdfbfdbdfbdfbdfbdbffvd</b>
+                <b className='div_b'>vdvdvfdvdfvdfvfdbfdbdfbfdbdfbdfbdfbdbffvd</b>
             </div>
-            <div>
-                <button>vdvdfvdf</button>
+            <div className='div_button'>
+                <button className='button_question_user'>vdvdfvdf</button>
             </div>
         </section>
     )

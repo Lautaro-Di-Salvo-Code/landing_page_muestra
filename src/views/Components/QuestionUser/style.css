@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
 }
-button {
+.button_question_user {
   background-color: #2f3349;
   color: #fff;
   width: 122px;
@@ -26,6 +26,14 @@ button {
   justify-content: center;
   height: 10rem;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 100px;
   text-align: center;
+  padding:1rem ;
+}
+.div_b{
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  width: 100%;
+  max-width: 150px;
 }

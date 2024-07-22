@@ -7,7 +7,7 @@ const FooterComponent = () => {
     return (
         <article className='article_Fotter'>
             <section className='article_section_footer'>
-                <div>
+                <div className='section_div'>
                     <div className='section_div-p'>
 
                         <img src={ImagenFooter} alt="" />
@@ -20,10 +20,22 @@ const FooterComponent = () => {
                         <p>
                             algovfdkmkdfmklmdlvkmfd
                         </p>
+                        <p>
+                            algovfdkmkdfmklmdlvkmfd
+                        </p>
+                        <p>
+                            algovfdkmkdfmklmdlvkmfd
+                        </p>
                     </div>
                 </div>
                 <div className='section_div-p'>
-                    <h4>Title</h4>
+                    <b>Title</b>
+                    <p>
+                        algovfdkmkdfmklmdlvkmfd
+                    </p>
+                    <p>
+                        algovfdkmkdfmklmdlvkmfd
+                    </p>
                     <p>
                         algovfdkmkdfmklmdlvkmfd
                     </p>
@@ -32,7 +44,13 @@ const FooterComponent = () => {
                     </p>
                 </div>
                 <div className='section_div-p'>
-                    <h4>Title</h4>
+                    <b>Title</b>
+                    <p>
+                        algovfdkmkdfmklmdlvkmfd
+                    </p>
+                    <p>
+                        algovfdkmkdfmklmdlvkmfd
+                    </p>
                     <p>
                         algovfdkmkdfmklmdlvkmfd
                     </p>
@@ -41,7 +59,13 @@ const FooterComponent = () => {
                     </p>
                 </div>
                 <div className='section_div-p'>
-                    <h4>Title</h4>
+                    <b>Title</b>
+                    <p>
+                        algovfdkmkdfmklmdlvkmfd
+                    </p>
+                    <p>
+                        algovfdkmkdfmklmdlvkmfd
+                    </p>
                     <p>
                         algovfdkmkdfmklmdlvkmfd
                     </p>

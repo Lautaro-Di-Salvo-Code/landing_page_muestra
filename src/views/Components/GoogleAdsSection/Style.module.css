@@ -30,6 +30,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr ;
     gap: 3rem;
+    max-width: 1160px;
+    margin: auto;
   }
   button {
     background-color: #ffffff00;
@@ -51,11 +53,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: fit-content;
-  gap: 2rem;
+  height: 45vh;
+  gap: 1rem;
   width: 90%;
-  /* max-width: 600px; */
   margin: auto;
+  padding: rem;
   b {
     width: 100%;
     text-align: center;
@@ -66,17 +68,21 @@ h3 {
   text-align: center;
 }
 .div_description{
-  margin: auto;
+  width: 100%;
   max-width: 150px;
-  height: auto;
-  width: 100px;
-  .div_description_p {
-    display: flex;
-    justify-content: center;
-    max-width: 150px;
-    font-size: 10px;
-    height: auto;
-    width: fit-content;
-  }
-  
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+.div_description_p {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  height: fit-content;
+  width: 109px;
+  padding: 5px;
+  /* border: 1px solid #000; */
 }
