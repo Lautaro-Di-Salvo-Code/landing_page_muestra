@@ -42,7 +42,7 @@
     color: #fff;
     padding: 5px;
     width: 69px;
-
+    cursor: pointer;
     &:hover {
       background-color: #4a5173;
     }
@@ -68,6 +68,7 @@ h4 {
   justify-content: center;
   text-align: center;
   height: 15vh;
+  padding: 1rem;
   @media screen and (width > 768px) {
     display: grid;
     place-content: center;
@@ -75,3 +76,4 @@ h4 {
     height: 40vh;
   }
 }
+

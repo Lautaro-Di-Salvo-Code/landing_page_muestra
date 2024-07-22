@@ -16,10 +16,14 @@ const Unnkown = () => {
         <div className={UnkContainer}>
             <section className={sectionInfo}>
                 <div className={sectionInfo_div1}>
+
                     <h4>Unnkown</h4>
                     <b>vfdvldmvldfl</b>
                     <p>cdvdfvdfvdfvfdvfdvdfvodfvdfovo</p>
-                    <button>bdfbdbd</button>
+                    <div className='div_button'>
+
+                        <button className='button_unkown'>bdfbdbd</button>
+                    </div>
 
                 </div>
                 <div className={sectionInfo_div2}>
