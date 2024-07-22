@@ -7,7 +7,7 @@ const QuestionUser = () => {
                 <h3>vfdvfd</h3>
             </div>
             <div className="div_description">
-                <b className='div_b'>vdvdvfdvdfvdfvfdbfdbdfbfdbdfbdfbdfbdbffvd</b>
+                <b className='div_b'>vdvdvdfbdfbdfbdbffvd</b>
             </div>
             <div className='div_button'>
                 <button className='button_question_user'>vdvdfvdf</button>

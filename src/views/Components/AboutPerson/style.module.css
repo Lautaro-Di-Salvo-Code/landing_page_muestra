@@ -12,6 +12,10 @@
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+  @media screen and (width > 768px) {
+    max-width: 1164px;
+    margin: auto;
+  }
   p {
     width: 100%;
     max-width: 187px;
@@ -46,17 +50,34 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin:  auto;
+
     b{
+      font-size: 1rem;
+      display: flex;
+      justify-content: start;
+
+      width: 100%;
+      @media screen and (width > 768px) {
+        text-align: left;
         font-size:2rem ;
+      }
     }
 }
 .textAboutPerson > * {
-    text-align: center;
     @media screen and (width > 768px) {
         text-align: left;
         padding:5px ;
   }
 }
-.imgAboutPerson {
-
+.imgAboutPerson{
+  display: flex;
+  justify-content: center;
+  .imgGuy{
+    @media screen and (width > 768px) {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+  }
 }
